@@ -43,3 +43,17 @@ body{
     display: flex;
     justify-content: center;
 }
+
+.grade {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.pixel {
+    width: 30px;
+    height: 30px; background-color:#edf1f0 ;
+    border: 3px solid white;
+    
+}
